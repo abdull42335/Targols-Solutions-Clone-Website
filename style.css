@@ -57,18 +57,49 @@ nav li:hover {
   margin-top: 87px;
   border-radius: 23px;
 }
-.Section-1st h1{
-    color: white;
-    margin-top: 45px;
-    font-family: sans-serif;
-    font-size: 57px;
+.Section-1st h1 {
+  color: white;
+  margin-top: 45px;
+  font-family: sans-serif;
+  font-size: 57px;
 }
-.Section-1st p{
-    color: white;
-    margin-top: 34px;
-    font-size: 18px;
-    font-family: sans-serif;
-    width: 772px;
-    text-align: center;
-    line-height: 28px;
+.Section-1st p {
+  color: white;
+  margin-top: 34px;
+  font-size: 18px;
+  font-family: sans-serif;
+  width: 772px;
+  text-align: center;
+  line-height: 28px;
+}
+
+.Section-2nd {
+  margin-top: 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 79px;
+  margin-right: 81px;
+}
+.about-text {
+  width: 500px;
+}
+.about-text h1 {
+  color: white;
+  font-family: sans-serif;
+  line-height: 112px;
+  font-size: 44px;
+}
+.about-text p {
+  font-family: sans-serif;
+  color: white;
+  font-size: 17px;
+  line-height: 28px;
+}
+.Section-2nd img{
+  height: 530px;
+  /* object-fit: cover; */
+  border-radius: 28px;
+
 }
