@@ -4,6 +4,10 @@
   text-decoration: none;
   list-style: none;
 }
+
+.message {
+  color: white;
+}
 body {
   background-color: black;
 }
@@ -97,9 +101,22 @@ nav li:hover {
   font-size: 17px;
   line-height: 28px;
 }
-.Section-2nd img{
+.Section-2nd img {
   height: 530px;
   /* object-fit: cover; */
   border-radius: 28px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .nav-contain {
+    display: flex;
+    margin-right: -343px;
+    padding: 54px 30px;
+    margin-top: 35px;
+  }
+  nav ul {
+    display: none;
+  }
 
 }
