@@ -108,7 +108,7 @@ nav li:hover {
   color: white;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 400px) {
   
   .logo h1{
     font-size: 38px;
@@ -156,12 +156,20 @@ nav li{
     }
     .about-text h1{
       font-size: 66px;
+      text-align: center;
+      width: 709px;
     }
     .about-text p{
-      font-size: 42px;
+      font-size: 30px;
       line-height: 50px;
-      width: 973px;
+      width: 792px;
       margin-top: 45px;
+      text-align: center;
+    }
+    .Section-2nd img{
+      margin-top: 85px;
+      width: 734px;
+      margin-left: 269px;
     }
 
 }
