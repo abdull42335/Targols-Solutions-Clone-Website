@@ -106,17 +106,31 @@ nav li:hover {
   /* object-fit: cover; */
   border-radius: 28px;
 }
-
+.icon svg {
+  color: white;
+}
 
 @media screen and (max-width: 600px) {
   .nav-contain {
-    display: flex;
+    flex-direction: column;
     margin-right: -343px;
     padding: 54px 30px;
     margin-top: 35px;
   }
   nav ul {
-    display: none;
+    display: flex;
+    margin-left: 392px;
+    margin-top: 28px;
   }
 
+  .Section-1st {
+    align-items: center;
+    flex-direction: column;
+    margin-left: 493px;
+
+  }
+  .image img{
+    width: 881px;
+    /* margin-left: 355px; */
+  }
 }
