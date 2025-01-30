@@ -5,9 +5,7 @@
   list-style: none;
 }
 
-.message {
-  color: white;
-}
+
 body {
   background-color: black;
 }
@@ -111,18 +109,26 @@ nav li:hover {
 }
 
 @media screen and (max-width: 600px) {
+  
+  .logo h1{
+    font-size: 38px;
+  }
+  
   .nav-contain {
     flex-direction: column;
-    margin-right: -343px;
+    margin-right: -479px;
     padding: 54px 30px;
     margin-top: 35px;
+    align-items: center;
   }
   nav ul {
     display: flex;
     margin-left: 392px;
     margin-top: 28px;
   }
-
+nav li{
+  font-size:22px ;
+}
   .Section-1st {
     align-items: center;
     flex-direction: column;
@@ -133,4 +139,31 @@ nav li:hover {
     width: 881px;
     /* margin-left: 355px; */
   }
+    .Section-1st h1 {
+        text-align: center;
+        width: 540px;
+    }
+
+       .Section-1st p {
+        width: 722px;
+        font-size: 29px;
+        line-height: 45px;
+    }
+    .Section-2nd{
+      flex-direction: column;
+      align-items: center;
+      margin-left: 357px;
+    }
+    .about-text h1{
+      font-size: 66px;
+    }
+    .about-text p{
+      font-size: 42px;
+      line-height: 50px;
+      width: 973px;
+      margin-top: 45px;
+    }
+
 }
+
+
